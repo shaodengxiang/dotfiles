@@ -1,3 +1,9 @@
+###
+# @Author: shaodeng.xiang
+ # @Date: 2018-10-30 11:52:57
+ # @LastEditTime: 2019-08-12 12:24:15
+ # @LastEditors: Do not edit
+ ###
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -108,3 +114,18 @@ source ~/.bash_profile
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+
+export PATH="$PATH:$HOME/.rvm/bin";
+export PATH="$PATH:/usr/local/opt/icu4c/bin:$PATH";
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/;
+
+export ANDROID_HOME=/Users/xiangshaodeng/Library/Android/sdk;
+export ANDROID_SDK_ROOT=/Users/xiangshaodeng/Library/Android/sdk;
+
+export PATH="$PATH:/Users/xiangshaodeng/Library/Android/sdk/platform-tools";
+export PATH="$PATH:/Users/xiangshaodeng/Library/Android/sdk/tools";
+export PATH="$PATH:${ANDROID_HOME_PLATFORM_TOOLS}:${ANDROID_HOME_TOOLS}";
+export PATH="$PATH:/Users/xiangshaodeng/.gradle/wrapper/dists/gradle-5.6.4-all/ankdp27end7byghfw1q2sw75f/gradle-5.6.4/bin";
+
